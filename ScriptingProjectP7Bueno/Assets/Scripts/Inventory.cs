@@ -19,22 +19,22 @@ public class Inventory : MonoBehaviour
             grenades = gre;
             rockets = roc;
         }
-    }
 
-    public Stuff(int bul, float fu)
-    {
-        bullets = bul;
-        fuel = fu;
-    }
 
-    //Constructor
-    public Stuff()
-    {
-        bullets = 1;
-        grenades = 1;
-        rockets = 1;
-    }
+        public Stuff(int bul, float fu)
+        {
+            bullets = bul;
+            fuel = fu;
+        }
 
+        //Constructor
+        public Stuff()
+        {
+            bullets = 1;
+            grenades = 1;
+            rockets = 1;
+        }
+    }
     // Creating an Instance (an Object) of Stuff class
     public Stuff myStuff = new Stuff(50, 5, 5);
 
